@@ -1,0 +1,4 @@
+[build]
+  base = "admin_pannel"          # This is your subdirectory
+  publish = ".next"              # Change to "dist" or "build" based on your framework
+  command = "npm run build"      # Or yarn build / next build etc.
